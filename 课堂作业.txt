@@ -1,0 +1,91 @@
+1、跳转到用户/root目录下
+2、查看当前目录的路径
+3、创建一个文件test.txt
+4、给test.txt添加以下内容并保存退出
+a
+b
+c
+s
+w
+qwe
+qqw
+r
+qw
+te
+5、查看文件内容，显示行数
+6、删除第7行内容保存退出
+7、复制一个新的文件叫test2.text
+8、删除test.txt文件
+9、给test2.txt重命名为test1.txt
+10、查看当前目录的所有文件包含隐藏文件夹
+
+2019年11月18日16:17:15作业
+1、在本地电脑写一段python代码，
+要求：每隔5秒钟写入到test.txt文件一句“hello word! 1”，
+每累加一次数字加1,下一句是“hello word! 2”。（不要print）
+
+2、上传到linux上并执行。输入ctrl+z挂起程序，然后通过查看进程，将其杀死，最后linux上查看输入的内容。
+
+3、完成数据的格式拼接、转换功能
+
+#原始数据
+data=[{'id':'1','filghtNumber':'3U2132','depDatetime':'2019-07-11 14:20','craftType':'32A','name':'空客321','kind':'M','kindName':'中型机'},
+        {'id':'2','filghtNumber':'FM5212','depDatetime':'2019-07-11 14:20','craftType':'33A','name':'空客320','kind':'L','kindName':'中型机'},
+        {'id':'3','filghtNumber':'CZ5123','depDatetime':'2019-07-11 14:20','craftType':'33E','name':'空客321','kind':'L','kindName':'大型机'},
+        {'id':'4','filghtNumber':'HO7216','depDatetime':'2019-07-11 14:20','craftType':'32A','name':'空客321','kind':'M','kindName':'中型机'},
+        {'id':'5','filghtNumber':'3U2132','depDatetime':'2019-07-12 14:20','craftType':'32A','name':'空客321','kind':'M','kindName':'中型机'},
+        {'id':'6','filghtNumber':'FM5212','depDatetime':'2019-07-12 14:20','craftType':'33A','name':'空客320','kind':'L','kindName':'中型机'},
+        {'id':'7','filghtNumber':'CZ5123','depDatetime':'2019-07-13 14:20','craftType':'33E','name':'空客321','kind':'L','kindName':'大型机'},
+        {'id':'8','filghtNumber':'HO7216','depDatetime':'2019-07-14 14:20','craftType':'32A','name':'空客321','kind':'M','kindName':'中型机'},
+        {'id':'9','filghtNumber': '3U2132', 'depDatetime': '2019-07-12 14:20', 'craftType': '32A', 'name': '空客321', 'kind': 'M','kindName': '中型机'},
+        {'id':'10','filghtNumber': 'FM5212', 'depDatetime': '2019-07-11 14:20', 'craftType': '33A', 'name': '空客320', 'kind': 'L','kindName': '中型机'},
+        {'id':'11','filghtNumber': 'CZ5123', 'depDatetime': '2019-07-13 14:20', 'craftType': '33E', 'name': '空客321', 'kind': 'L','kindName': '大型机'},
+        {'id':'12','filghtNumber': 'HO7216', 'depDatetime': '2019-07-12 14:20', 'craftType': '32A', 'name': '空客321', 'kind': 'M','kindName': '中型机'},
+        {'id':'13','filghtNumber': '3U2132', 'depDatetime': '2019-07-12 14:20', 'craftType': '32A', 'name': '空客321', 'kind': 'M','kindName': '中型机'},
+        {'id':'14','filghtNumber': 'FM5212', 'depDatetime': '2019-07-13 14:20', 'craftType': '33A', 'name': '空客320', 'kind': 'L','kindName': '中型机'},
+        {'id':'15','filghtNumber': 'CZ5123', 'depDatetime': '2019-07-12 14:20', 'craftType': '33E', 'name': '空客321', 'kind': 'L','kindName': '大型机'},
+        {'id':'16','filghtNumber': 'HO7216', 'depDatetime': '2019-07-14 14:20', 'craftType': '32A', 'name': '空客321', 'kind': 'M','kindName': '中型机'}
+      ]
+
+#转换后的数据
+result={
+    'basicModelData':{
+        'craftTypes':{
+            '32A':{
+                'name':'空客321',
+                'kind':'M',
+                'kindName':'中型机'
+            },
+            '33A':{
+                'name':'空客320',
+                'kind':'L',
+                'kindName':'中型机'
+            },
+            '33E':{
+                'name':'空客330',
+                'kind':'L',
+                'kindName':'大型机'
+            },
+
+        },
+        'airline':['3U','FM','CZ','HO']
+    },
+    'filghtList':[
+        {'filghtNumber':'3U2132','depDatetime':'2019-07-11 14:20','craftType':'32A','name':'空客321','kind':'M','kindName':'中型机'},
+        {'filghtNumber':'FM5212','depDatetime':'2019-07-11 14:20','craftType':'33A','name':'空客320','kind':'L','kindName':'中型机'},
+        {'filghtNumber':'CZ5123','depDatetime':'2019-07-11 14:20','craftType':'33E','name':'空客321','kind':'L','kindName':'大型机'},
+        {'filghtNumber':'HO7216','depDatetime':'2019-07-11 14:20','craftType':'32A','name':'空客321','kind':'M','kindName':'中型机'},
+        {'filghtNumber':'3U2132','depDatetime':'2019-07-12 14:20','craftType':'32A','name':'空客321','kind':'M','kindName':'中型机'},
+        {'filghtNumber':'FM5212','depDatetime':'2019-07-12 14:20','craftType':'33A','name':'空客320','kind':'L','kindName':'中型机'},
+        {'filghtNumber':'CZ5123','depDatetime':'2019-07-13 14:20','craftType':'33E','name':'空客321','kind':'L','kindName':'大型机'},
+        {'filghtNumber':'HO7216','depDatetime':'2019-07-14 14:20','craftType':'32A','name':'空客321','kind':'M','kindName':'中型机'},
+        {'filghtNumber': '3U2132', 'depDatetime': '2019-07-12 14:20', 'craftType': '32A', 'name': '空客321', 'kind': 'M','kindName': '中型机'},
+        {'filghtNumber': 'FM5212', 'depDatetime': '2019-07-11 14:20', 'craftType': '33A', 'name': '空客320', 'kind': 'L','kindName': '中型机'},
+        {'filghtNumber': 'CZ5123', 'depDatetime': '2019-07-13 14:20', 'craftType': '33E', 'name': '空客321', 'kind': 'L','kindName': '大型机'},
+        {'filghtNumber': 'HO7216', 'depDatetime': '2019-07-12 14:20', 'craftType': '32A', 'name': '空客321', 'kind': 'M','kindName': '中型机'},
+        {'filghtNumber': '3U2132', 'depDatetime': '2019-07-12 14:20', 'craftType': '32A', 'name': '空客321', 'kind': 'M','kindName': '中型机'},
+        {'filghtNumber': 'FM5212', 'depDatetime': '2019-07-13 14:20', 'craftType': '33A', 'name': '空客320', 'kind': 'L','kindName': '中型机'},
+        {'filghtNumber': 'CZ5123', 'depDatetime': '2019-07-12 14:20', 'craftType': '33E', 'name': '空客321', 'kind': 'L','kindName': '大型机'},
+        {'filghtNumber': 'HO7216', 'depDatetime': '2019-07-14 14:20', 'craftType': '32A', 'name': '空客321', 'kind': 'M','kindName': '中型机'}
+    ]
+}
