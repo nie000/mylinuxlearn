@@ -1,0 +1,151 @@
+#1. mysql登录命令
+
+mysql -u (用户名) -h (mysql服务所在地址) -P (可选默认3306 指定端口号) -p
+
+mysql -u root -h 127.0.0.1 -P3306 -p
+
+#2. show databases; 查看数据库
+
+#3. use databases; 进入数据库
+
+#4. show tables; 查看当前所在数据库下面的所有表
+
+#5. show columns from mysql.db 查看mysql数据库下面的db表的字段
+
+总结 show命令是查看数据库或者表的结构（show不会给你查看数据）
+
+#2. grant 授权
+
+grant all privileges on *.* to root@127.0.0.1 identified by "123456"  with grant option;
+grant all PRIVILEGES on *.* to 'admin1'@'127.0.0.1' IDENTIFIED by '123456' with grant option
+grant 表示授权  all privileges表示用户可以有所有的权限 on *.* (.的前面表示什么数据库,后面表示数据库里面的什么表 *.* 表示所有的数据库里面的所有表)
+to 给哪个用户授权  @表示这个用户必须在哪里登录才有这个权限 如有你想给所有ip 那么要使用 root@'%' identified
+
+在刷新完权限之后要执行 flush privileges; 使他生效
+
+8.0授权
+
+#设置密码强度要求低（可以不用这个命令,如果没有这个命令 那么在下面的密码就设置复杂的密码）
+set global validate_password_policy=LOW;
+#首先创建用户
+create user admin1@127.0.0.1 identified by 'admin@123456'
+
+grant all PRIVILEGES on *.* to admin1@127.0.0.1
+
+flush PRIVILEGES
+
+ip的正则
+
+root@"10.1.0.%"
+
+grant权限
+
+mysql 四种权限 增删查改 select insert update delete
+
+
+#安全模式 如果你的mysql密码忘记了
+ 1. 重装
+ 2. 8.0直接初始化密码
+ 3. 启动安全模式 ./mysqld --skip-grant-tables;启动 如果启动成功
+      mysql -u root
+
+
+char
+
+
+
+#存储过程
+
+1. 存储过程必须归属于 databases上面
+2. 存储过程定义方式
+    create procedure show_users(); (show_users函数名 自定义)
+    begin
+
+
+    函数体
+
+    end
+3. 在制作存储过程的时候,切忌修改分隔符 delimiter $$
+
+4. 在定义完成之后,切忌把分隔符修改回来
+5. 调用存储过程 call show_users();
+
+示例
+
+定义
+```
+delimiter $$
+create procedure show_users1()
+begin
+select host,user from mysql.user;
+select host,db from mysql.db;
+end
+$$
+delimiter ;
+```
+
+调用
+
+```
+call show_users1();
+```
+
+存储过程或者存储函数的优点
+
+速度快: 在定义号存储过程的时候,mysql就已经把里面的语句
+优化好了,他的速度是比你调用普通的select 这些要快的
+
+缺点:
+
+代码定死的 很难维护 其实还不如写在程序
+
+#触发器
+
+1. 修改分隔符
+2. create trigger +触发器名称
+3. begin  执行语句 end
+4. 调用 (自动调用满足条件之后自动)
+
+#触发器的原理
+
+在数据被更新之前还是之后 before after
+什么操作去执行触发  insert update ....
+监听什么表该触发  on table
+
+```
+delimiter $$
+create trigger add_salary
+before insert on employee
+for each row
+BEGIN
+set NEW.salary = NEW.salary + 1000;
+end
+$$
+delimiter ;
+```
+
+查看触发器
+show TRIGGERS;
+
+
+# mysql 事件触发器
+
+1. 开启
+2.
+
+
+#mysql 事务
+
+1. acid
+
+2. 语句执行
+
+    1. begin
+    2. 执行的语句
+    3. commit
+
+    4. rollback 撤销操作
+
+
+# set session transaction isolation level read uncommitted
+
