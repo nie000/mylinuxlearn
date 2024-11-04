@@ -1,7 +1,8 @@
-1¡¢Ìø×ªµ½ÓÃ»§/rootÄ¿Â¼ÏÂ
-2¡¢²é¿´µ±Ç°Ä¿Â¼µÄÂ·¾¶
-3¡¢´´½¨Ò»¸öÎÄ¼ştest.txt
-4¡¢¸øtest.txtÌí¼ÓÒÔÏÂÄÚÈİ²¢±£´æÍË³ö
+https://www.bilibili.com/video/BV1tT4y137bD?spm_id_from=333.788.player.switch&vd_source=b80668a2e01ad7cc78ba07e89845d19a&p=4
+1ã€è·³è½¬åˆ°ç”¨æˆ·/rootç›®å½•ä¸‹
+2ã€æŸ¥çœ‹å½“å‰ç›®å½•çš„è·¯å¾„
+3ã€åˆ›å»ºä¸€ä¸ªæ–‡ä»¶test.txt
+4ã€ç»™test.txtæ·»åŠ ä»¥ä¸‹å†…å®¹å¹¶ä¿å­˜é€€å‡º
 a
 b
 c
@@ -12,80 +13,80 @@ qqw
 r
 qw
 te
-5¡¢²é¿´ÎÄ¼şÄÚÈİ£¬ÏÔÊ¾ĞĞÊı
-6¡¢É¾³ıµÚ7ĞĞÄÚÈİ±£´æÍË³ö
-7¡¢¸´ÖÆÒ»¸öĞÂµÄÎÄ¼ş½Ğtest2.text
-8¡¢É¾³ıtest.txtÎÄ¼ş
-9¡¢¸øtest2.txtÖØÃüÃûÎªtest1.txt
-10¡¢²é¿´µ±Ç°Ä¿Â¼µÄËùÓĞÎÄ¼ş°üº¬Òş²ØÎÄ¼ş¼Ğ
+5ã€æŸ¥çœ‹æ–‡ä»¶å†…å®¹ï¼Œæ˜¾ç¤ºè¡Œæ•°
+6ã€åˆ é™¤ç¬¬7è¡Œå†…å®¹ä¿å­˜é€€å‡º
+7ã€å¤åˆ¶ä¸€ä¸ªæ–°çš„æ–‡ä»¶å«test2.text
+8ã€åˆ é™¤test.txtæ–‡ä»¶
+9ã€ç»™test2.txté‡å‘½åä¸ºtest1.txt
+10ã€æŸ¥çœ‹å½“å‰ç›®å½•çš„æ‰€æœ‰æ–‡ä»¶åŒ…å«éšè—æ–‡ä»¶å¤¹
 
-2019Äê11ÔÂ18ÈÕ16:17:15×÷Òµ
-1¡¢ÔÚ±¾µØµçÄÔĞ´Ò»¶Îpython´úÂë£¬
-ÒªÇó£ºÃ¿¸ô5ÃëÖÓĞ´Èëµ½test.txtÎÄ¼şÒ»¾ä¡°hello word! 1¡±£¬
-Ã¿ÀÛ¼ÓÒ»´ÎÊı×Ö¼Ó1,ÏÂÒ»¾äÊÇ¡°hello word! 2¡±¡££¨²»Òªprint£©
+2019å¹´11æœˆ18æ—¥16:17:15ä½œä¸š
+1ã€åœ¨æœ¬åœ°ç”µè„‘å†™ä¸€æ®µpythonä»£ç ï¼Œ
+è¦æ±‚ï¼šæ¯éš”5ç§’é’Ÿå†™å…¥åˆ°test.txtæ–‡ä»¶ä¸€å¥â€œhello word! 1â€ï¼Œ
+æ¯ç´¯åŠ ä¸€æ¬¡æ•°å­—åŠ 1,ä¸‹ä¸€å¥æ˜¯â€œhello word! 2â€ã€‚ï¼ˆä¸è¦printï¼‰
 
-2¡¢ÉÏ´«µ½linuxÉÏ²¢Ö´ĞĞ¡£ÊäÈëctrl+z¹ÒÆğ³ÌĞò£¬È»ºóÍ¨¹ı²é¿´½ø³Ì£¬½«ÆäÉ±ËÀ£¬×îºólinuxÉÏ²é¿´ÊäÈëµÄÄÚÈİ¡£
+2ã€ä¸Šä¼ åˆ°linuxä¸Šå¹¶æ‰§è¡Œã€‚è¾“å…¥ctrl+zæŒ‚èµ·ç¨‹åºï¼Œç„¶åé€šè¿‡æŸ¥çœ‹è¿›ç¨‹ï¼Œå°†å…¶æ€æ­»ï¼Œæœ€ålinuxä¸ŠæŸ¥çœ‹è¾“å…¥çš„å†…å®¹ã€‚
 
-3¡¢Íê³ÉÊı¾İµÄ¸ñÊ½Æ´½Ó¡¢×ª»»¹¦ÄÜ
+3ã€å®Œæˆæ•°æ®çš„æ ¼å¼æ‹¼æ¥ã€è½¬æ¢åŠŸèƒ½
 
-#Ô­Ê¼Êı¾İ
-data=[{'id':'1','filghtNumber':'3U2132','depDatetime':'2019-07-11 14:20','craftType':'32A','name':'¿Õ¿Í321','kind':'M','kindName':'ÖĞĞÍ»ú'},
-        {'id':'2','filghtNumber':'FM5212','depDatetime':'2019-07-11 14:20','craftType':'33A','name':'¿Õ¿Í320','kind':'L','kindName':'ÖĞĞÍ»ú'},
-        {'id':'3','filghtNumber':'CZ5123','depDatetime':'2019-07-11 14:20','craftType':'33E','name':'¿Õ¿Í321','kind':'L','kindName':'´óĞÍ»ú'},
-        {'id':'4','filghtNumber':'HO7216','depDatetime':'2019-07-11 14:20','craftType':'32A','name':'¿Õ¿Í321','kind':'M','kindName':'ÖĞĞÍ»ú'},
-        {'id':'5','filghtNumber':'3U2132','depDatetime':'2019-07-12 14:20','craftType':'32A','name':'¿Õ¿Í321','kind':'M','kindName':'ÖĞĞÍ»ú'},
-        {'id':'6','filghtNumber':'FM5212','depDatetime':'2019-07-12 14:20','craftType':'33A','name':'¿Õ¿Í320','kind':'L','kindName':'ÖĞĞÍ»ú'},
-        {'id':'7','filghtNumber':'CZ5123','depDatetime':'2019-07-13 14:20','craftType':'33E','name':'¿Õ¿Í321','kind':'L','kindName':'´óĞÍ»ú'},
-        {'id':'8','filghtNumber':'HO7216','depDatetime':'2019-07-14 14:20','craftType':'32A','name':'¿Õ¿Í321','kind':'M','kindName':'ÖĞĞÍ»ú'},
-        {'id':'9','filghtNumber': '3U2132', 'depDatetime': '2019-07-12 14:20', 'craftType': '32A', 'name': '¿Õ¿Í321', 'kind': 'M','kindName': 'ÖĞĞÍ»ú'},
-        {'id':'10','filghtNumber': 'FM5212', 'depDatetime': '2019-07-11 14:20', 'craftType': '33A', 'name': '¿Õ¿Í320', 'kind': 'L','kindName': 'ÖĞĞÍ»ú'},
-        {'id':'11','filghtNumber': 'CZ5123', 'depDatetime': '2019-07-13 14:20', 'craftType': '33E', 'name': '¿Õ¿Í321', 'kind': 'L','kindName': '´óĞÍ»ú'},
-        {'id':'12','filghtNumber': 'HO7216', 'depDatetime': '2019-07-12 14:20', 'craftType': '32A', 'name': '¿Õ¿Í321', 'kind': 'M','kindName': 'ÖĞĞÍ»ú'},
-        {'id':'13','filghtNumber': '3U2132', 'depDatetime': '2019-07-12 14:20', 'craftType': '32A', 'name': '¿Õ¿Í321', 'kind': 'M','kindName': 'ÖĞĞÍ»ú'},
-        {'id':'14','filghtNumber': 'FM5212', 'depDatetime': '2019-07-13 14:20', 'craftType': '33A', 'name': '¿Õ¿Í320', 'kind': 'L','kindName': 'ÖĞĞÍ»ú'},
-        {'id':'15','filghtNumber': 'CZ5123', 'depDatetime': '2019-07-12 14:20', 'craftType': '33E', 'name': '¿Õ¿Í321', 'kind': 'L','kindName': '´óĞÍ»ú'},
-        {'id':'16','filghtNumber': 'HO7216', 'depDatetime': '2019-07-14 14:20', 'craftType': '32A', 'name': '¿Õ¿Í321', 'kind': 'M','kindName': 'ÖĞĞÍ»ú'}
+#åŸå§‹æ•°æ®
+data=[{'id':'1','filghtNumber':'3U2132','depDatetime':'2019-07-11 14:20','craftType':'32A','name':'ç©ºå®¢321','kind':'M','kindName':'ä¸­å‹æœº'},
+        {'id':'2','filghtNumber':'FM5212','depDatetime':'2019-07-11 14:20','craftType':'33A','name':'ç©ºå®¢320','kind':'L','kindName':'ä¸­å‹æœº'},
+        {'id':'3','filghtNumber':'CZ5123','depDatetime':'2019-07-11 14:20','craftType':'33E','name':'ç©ºå®¢321','kind':'L','kindName':'å¤§å‹æœº'},
+        {'id':'4','filghtNumber':'HO7216','depDatetime':'2019-07-11 14:20','craftType':'32A','name':'ç©ºå®¢321','kind':'M','kindName':'ä¸­å‹æœº'},
+        {'id':'5','filghtNumber':'3U2132','depDatetime':'2019-07-12 14:20','craftType':'32A','name':'ç©ºå®¢321','kind':'M','kindName':'ä¸­å‹æœº'},
+        {'id':'6','filghtNumber':'FM5212','depDatetime':'2019-07-12 14:20','craftType':'33A','name':'ç©ºå®¢320','kind':'L','kindName':'ä¸­å‹æœº'},
+        {'id':'7','filghtNumber':'CZ5123','depDatetime':'2019-07-13 14:20','craftType':'33E','name':'ç©ºå®¢321','kind':'L','kindName':'å¤§å‹æœº'},
+        {'id':'8','filghtNumber':'HO7216','depDatetime':'2019-07-14 14:20','craftType':'32A','name':'ç©ºå®¢321','kind':'M','kindName':'ä¸­å‹æœº'},
+        {'id':'9','filghtNumber': '3U2132', 'depDatetime': '2019-07-12 14:20', 'craftType': '32A', 'name': 'ç©ºå®¢321', 'kind': 'M','kindName': 'ä¸­å‹æœº'},
+        {'id':'10','filghtNumber': 'FM5212', 'depDatetime': '2019-07-11 14:20', 'craftType': '33A', 'name': 'ç©ºå®¢320', 'kind': 'L','kindName': 'ä¸­å‹æœº'},
+        {'id':'11','filghtNumber': 'CZ5123', 'depDatetime': '2019-07-13 14:20', 'craftType': '33E', 'name': 'ç©ºå®¢321', 'kind': 'L','kindName': 'å¤§å‹æœº'},
+        {'id':'12','filghtNumber': 'HO7216', 'depDatetime': '2019-07-12 14:20', 'craftType': '32A', 'name': 'ç©ºå®¢321', 'kind': 'M','kindName': 'ä¸­å‹æœº'},
+        {'id':'13','filghtNumber': '3U2132', 'depDatetime': '2019-07-12 14:20', 'craftType': '32A', 'name': 'ç©ºå®¢321', 'kind': 'M','kindName': 'ä¸­å‹æœº'},
+        {'id':'14','filghtNumber': 'FM5212', 'depDatetime': '2019-07-13 14:20', 'craftType': '33A', 'name': 'ç©ºå®¢320', 'kind': 'L','kindName': 'ä¸­å‹æœº'},
+        {'id':'15','filghtNumber': 'CZ5123', 'depDatetime': '2019-07-12 14:20', 'craftType': '33E', 'name': 'ç©ºå®¢321', 'kind': 'L','kindName': 'å¤§å‹æœº'},
+        {'id':'16','filghtNumber': 'HO7216', 'depDatetime': '2019-07-14 14:20', 'craftType': '32A', 'name': 'ç©ºå®¢321', 'kind': 'M','kindName': 'ä¸­å‹æœº'}
       ]
 
-#×ª»»ºóµÄÊı¾İ
+#è½¬æ¢åçš„æ•°æ®
 result={
     'basicModelData':{
         'craftTypes':{
             '32A':{
-                'name':'¿Õ¿Í321',
+                'name':'ç©ºå®¢321',
                 'kind':'M',
-                'kindName':'ÖĞĞÍ»ú'
+                'kindName':'ä¸­å‹æœº'
             },
             '33A':{
-                'name':'¿Õ¿Í320',
+                'name':'ç©ºå®¢320',
                 'kind':'L',
-                'kindName':'ÖĞĞÍ»ú'
+                'kindName':'ä¸­å‹æœº'
             },
             '33E':{
-                'name':'¿Õ¿Í330',
+                'name':'ç©ºå®¢330',
                 'kind':'L',
-                'kindName':'´óĞÍ»ú'
+                'kindName':'å¤§å‹æœº'
             },
 
         },
         'airline':['3U','FM','CZ','HO']
     },
     'filghtList':[
-        {'filghtNumber':'3U2132','depDatetime':'2019-07-11 14:20','craftType':'32A','name':'¿Õ¿Í321','kind':'M','kindName':'ÖĞĞÍ»ú'},
-        {'filghtNumber':'FM5212','depDatetime':'2019-07-11 14:20','craftType':'33A','name':'¿Õ¿Í320','kind':'L','kindName':'ÖĞĞÍ»ú'},
-        {'filghtNumber':'CZ5123','depDatetime':'2019-07-11 14:20','craftType':'33E','name':'¿Õ¿Í321','kind':'L','kindName':'´óĞÍ»ú'},
-        {'filghtNumber':'HO7216','depDatetime':'2019-07-11 14:20','craftType':'32A','name':'¿Õ¿Í321','kind':'M','kindName':'ÖĞĞÍ»ú'},
-        {'filghtNumber':'3U2132','depDatetime':'2019-07-12 14:20','craftType':'32A','name':'¿Õ¿Í321','kind':'M','kindName':'ÖĞĞÍ»ú'},
-        {'filghtNumber':'FM5212','depDatetime':'2019-07-12 14:20','craftType':'33A','name':'¿Õ¿Í320','kind':'L','kindName':'ÖĞĞÍ»ú'},
-        {'filghtNumber':'CZ5123','depDatetime':'2019-07-13 14:20','craftType':'33E','name':'¿Õ¿Í321','kind':'L','kindName':'´óĞÍ»ú'},
-        {'filghtNumber':'HO7216','depDatetime':'2019-07-14 14:20','craftType':'32A','name':'¿Õ¿Í321','kind':'M','kindName':'ÖĞĞÍ»ú'},
-        {'filghtNumber': '3U2132', 'depDatetime': '2019-07-12 14:20', 'craftType': '32A', 'name': '¿Õ¿Í321', 'kind': 'M','kindName': 'ÖĞĞÍ»ú'},
-        {'filghtNumber': 'FM5212', 'depDatetime': '2019-07-11 14:20', 'craftType': '33A', 'name': '¿Õ¿Í320', 'kind': 'L','kindName': 'ÖĞĞÍ»ú'},
-        {'filghtNumber': 'CZ5123', 'depDatetime': '2019-07-13 14:20', 'craftType': '33E', 'name': '¿Õ¿Í321', 'kind': 'L','kindName': '´óĞÍ»ú'},
-        {'filghtNumber': 'HO7216', 'depDatetime': '2019-07-12 14:20', 'craftType': '32A', 'name': '¿Õ¿Í321', 'kind': 'M','kindName': 'ÖĞĞÍ»ú'},
-        {'filghtNumber': '3U2132', 'depDatetime': '2019-07-12 14:20', 'craftType': '32A', 'name': '¿Õ¿Í321', 'kind': 'M','kindName': 'ÖĞĞÍ»ú'},
-        {'filghtNumber': 'FM5212', 'depDatetime': '2019-07-13 14:20', 'craftType': '33A', 'name': '¿Õ¿Í320', 'kind': 'L','kindName': 'ÖĞĞÍ»ú'},
-        {'filghtNumber': 'CZ5123', 'depDatetime': '2019-07-12 14:20', 'craftType': '33E', 'name': '¿Õ¿Í321', 'kind': 'L','kindName': '´óĞÍ»ú'},
-        {'filghtNumber': 'HO7216', 'depDatetime': '2019-07-14 14:20', 'craftType': '32A', 'name': '¿Õ¿Í321', 'kind': 'M','kindName': 'ÖĞĞÍ»ú'}
+        {'filghtNumber':'3U2132','depDatetime':'2019-07-11 14:20','craftType':'32A','name':'ç©ºå®¢321','kind':'M','kindName':'ä¸­å‹æœº'},
+        {'filghtNumber':'FM5212','depDatetime':'2019-07-11 14:20','craftType':'33A','name':'ç©ºå®¢320','kind':'L','kindName':'ä¸­å‹æœº'},
+        {'filghtNumber':'CZ5123','depDatetime':'2019-07-11 14:20','craftType':'33E','name':'ç©ºå®¢321','kind':'L','kindName':'å¤§å‹æœº'},
+        {'filghtNumber':'HO7216','depDatetime':'2019-07-11 14:20','craftType':'32A','name':'ç©ºå®¢321','kind':'M','kindName':'ä¸­å‹æœº'},
+        {'filghtNumber':'3U2132','depDatetime':'2019-07-12 14:20','craftType':'32A','name':'ç©ºå®¢321','kind':'M','kindName':'ä¸­å‹æœº'},
+        {'filghtNumber':'FM5212','depDatetime':'2019-07-12 14:20','craftType':'33A','name':'ç©ºå®¢320','kind':'L','kindName':'ä¸­å‹æœº'},
+        {'filghtNumber':'CZ5123','depDatetime':'2019-07-13 14:20','craftType':'33E','name':'ç©ºå®¢321','kind':'L','kindName':'å¤§å‹æœº'},
+        {'filghtNumber':'HO7216','depDatetime':'2019-07-14 14:20','craftType':'32A','name':'ç©ºå®¢321','kind':'M','kindName':'ä¸­å‹æœº'},
+        {'filghtNumber': '3U2132', 'depDatetime': '2019-07-12 14:20', 'craftType': '32A', 'name': 'ç©ºå®¢321', 'kind': 'M','kindName': 'ä¸­å‹æœº'},
+        {'filghtNumber': 'FM5212', 'depDatetime': '2019-07-11 14:20', 'craftType': '33A', 'name': 'ç©ºå®¢320', 'kind': 'L','kindName': 'ä¸­å‹æœº'},
+        {'filghtNumber': 'CZ5123', 'depDatetime': '2019-07-13 14:20', 'craftType': '33E', 'name': 'ç©ºå®¢321', 'kind': 'L','kindName': 'å¤§å‹æœº'},
+        {'filghtNumber': 'HO7216', 'depDatetime': '2019-07-12 14:20', 'craftType': '32A', 'name': 'ç©ºå®¢321', 'kind': 'M','kindName': 'ä¸­å‹æœº'},
+        {'filghtNumber': '3U2132', 'depDatetime': '2019-07-12 14:20', 'craftType': '32A', 'name': 'ç©ºå®¢321', 'kind': 'M','kindName': 'ä¸­å‹æœº'},
+        {'filghtNumber': 'FM5212', 'depDatetime': '2019-07-13 14:20', 'craftType': '33A', 'name': 'ç©ºå®¢320', 'kind': 'L','kindName': 'ä¸­å‹æœº'},
+        {'filghtNumber': 'CZ5123', 'depDatetime': '2019-07-12 14:20', 'craftType': '33E', 'name': 'ç©ºå®¢321', 'kind': 'L','kindName': 'å¤§å‹æœº'},
+        {'filghtNumber': 'HO7216', 'depDatetime': '2019-07-14 14:20', 'craftType': '32A', 'name': 'ç©ºå®¢321', 'kind': 'M','kindName': 'ä¸­å‹æœº'}
     ]
 }
